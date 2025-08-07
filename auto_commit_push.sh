@@ -7,7 +7,7 @@ if [ -z "$1" ]; then
 fi
 
 # Get current date in YYYY-MM-DD format
-DATE=$(date +%F)
+DATE=$(date +%F %H:%M)
 
 # Create commit message
 COMMIT_MESSAGE="Update \"$DATE\": $1"
